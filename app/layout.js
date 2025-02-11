@@ -1,15 +1,16 @@
-import Layout from "../components/Layout"; // ✅ Import Layout
+"use client";  // ✅ Mark as Client Component
 
-export const metadata = {
-  title: "Pizza Restaurant",
-  description: "Best pizza shop in town",
-};
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import "../styles/globals.css";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Layout>{children}</Layout>  {/* ✅ Wrap content inside Layout */}
+        <Navbar />
+        <main>{children}</main>  {/* Wrap children inside <main> for better structure */}
+        <Footer />
       </body>
     </html>
   );
