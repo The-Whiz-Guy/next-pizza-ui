@@ -13,12 +13,16 @@
 .right {
   flex: 1;
   padding: 20px;
+  font-size: 23;
+  
 }
 .imgContainer {
-  height: 80%;
-  position: relative;
-  width: 80%;
+  overflow: hidden;  /*3Prevents sharp edges from overflowing */
+  height: auto;
+  object-fit: cover;  /* ✅ Prevents stretching */
+  border-radius: 70px; /* ✅ Applies curved edges to image */
 }
+
 .price {
   border-bottom: 1px solid #d1411e;
   color: #d1411e;
@@ -60,10 +64,13 @@
 .checkbox {
   height: 20px;
   width: 20px;
+  font-size: 7;
 }
 .ingredients {
   display: flex;
   margin-bottom: 30px;
+  font-size: 7;
+
 }
 .option {
   align-items: center;
@@ -71,6 +78,8 @@
   font-size: 14px;
   font-weight: bold;
   margin-right: 10px;
+  font-size: 20;
+
 }
 .quantity {
   height: 30px;

@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <Image src="/img/bg.png" objectFit="cover" layout="fill" alt="" />
+        <Image src="/img/bg.png" layout="fill" alt="Background" />
       </div>
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>
-            OH YES, WE DID.THE MAKE THE BEST PIZZA IN THE TOWN , WELL BAKED SLICE OF PIZZA.
+            OH YES, WE DID. THE BEST PIZZA IN TOWN, WELL-BAKED SLICE OF PIZZA.
           </h2>
         </div>
         <div className={styles.card}>
@@ -40,7 +40,7 @@ const Footer = () => {
         <div className={styles.card}>
           <h1 className={styles.title}>WORKING HOURS</h1>
           <p className={styles.text}>
-            MONDAY UNTIL FRIDAY
+            MONDAY - FRIDAY
             <br /> 9:00 – 22:00
           </p>
           <p className={styles.text}>

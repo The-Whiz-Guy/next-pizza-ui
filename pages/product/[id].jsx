@@ -54,7 +54,7 @@ const Product = ({ pizza }) => {
       // Otherwise, add new item
       cart.push({
         id: pizza._id,
-        name: pizza.name,
+        name: pizza.title,
         img: pizza.img,
         price,
         size: ["Small", "Medium", "Large"][size],
@@ -78,7 +78,7 @@ const Product = ({ pizza }) => {
       </div>
 
       <div className={styles.right}>
-        <h1 className={styles.title}>{pizza.name}</h1>
+        <h1 className={styles.title}>{pizza.title}</h1>
         <span className={styles.price}>${price.toFixed(2)}</span>
         <p className={styles.desc}>{pizza.desc}</p>
 

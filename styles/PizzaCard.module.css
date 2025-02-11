@@ -9,6 +9,19 @@
   cursor: pointer;
 }
 
+.padding {
+  width: 100%;   /* Ensure it fits inside .container */
+  overflow: hidden;  /* Prevents sharp edges from overflowing */
+  border-radius: 20px;  /* ✅ Curved corners */
+}
+
+.padding img {
+  width: 100%;   /* Ensure image fills the container */
+  height: auto;
+  object-fit: cover;  /* ✅ Prevents stretching */
+  border-radius: 20px; /* ✅ Applies curved edges to image */
+}
+
 .title {
   font-size: 18px;
   font-weight: bold;

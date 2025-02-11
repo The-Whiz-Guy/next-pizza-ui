@@ -8,10 +8,12 @@ const PizzaCard = ({ pizza }) => {
   return (
     <div className={styles.container}>
       <Link href={`/product/${pizza._id}`} passHref>
-        <Image src={pizza.img} alt={pizza.title} width="500" height="500" />
+      <div className={styles.padding}>
+      <Image src={pizza.img} alt={pizza.title} width="500" height="500" />
+      </div>
       </Link>
       <h1 className={styles.title}>{pizza.title}</h1>
-      <span className={styles.price}>${pizza.price}</span>  {/* ✅ Use pizza.price */}
+      <span className={styles.price}>${pizza.prices[0]}</span>  {/* ✅ Use pizza.price */}
       <p className={styles.desc}>{pizza.desc}</p>
     </div>
   );
