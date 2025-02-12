@@ -20,7 +20,7 @@
 
 .table {
   width: 80%;
-  border-spacing: 40; /* Change from collapse to separate */
+  border-spacing: 40; 
   margin-bottom: 20;
 }
 
@@ -30,7 +30,7 @@
   color: black;
 }
 
-.th, .td { /* Use a class instead of global `th, td` */
+.th, .td { 
   padding: 15px;
   text-align: center;
 }

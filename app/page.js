@@ -1,9 +1,8 @@
 import Featured from "../components/Featured";
 import PizzaList from "../components/PizzaList";
-import styles from "../styles/Home.module.css";
 
 async function getPizzas() {
-  const res = await fetch("http://localhost:3000/api/products", { cache: "no-store" }); // No caching for fresh data
+  const res = await fetch("http://localhost:3000/api/products", { cache: "no-store" }); 
   if (!res.ok) {
     throw new Error("Failed to fetch pizzas");
   }
@@ -14,9 +13,9 @@ export default async function Page() {
   const pizzaList = await getPizzas();
 
   return (
-    <div className={styles.container}>
+    <div>
       <Featured />
-      <PizzaList pizzaList={pizzaList} /> {/* ✅ Pass correct prop */}
+      <PizzaList pizzaList={pizzaList} /> 
     </div>
   );
 }

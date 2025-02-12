@@ -1,6 +1,6 @@
 .container {
   height: 100px;
-  padding: 0px 50px;
+  padding: 0px 30px;
   background-color: #d1411e;
   display: flex;
   align-items: center;
@@ -14,6 +14,8 @@
   flex: 1;
   display: flex;
   align-items: center;
+  margin-bottom: 10;
+  
 }
 
 .item:nth-child(2) {

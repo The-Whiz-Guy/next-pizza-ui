@@ -15,6 +15,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "axios": "^1.7.9",
     "cookie": "^1.0.2",
+    "export": "^0.1.337",
     "mongodb": "^6.13.0",
     "mongoose": "^8.10.0",
     "next": "15.1.6",

@@ -17,10 +17,10 @@
   
 }
 .imgContainer {
-  overflow: hidden;  /*3Prevents sharp edges from overflowing */
+  overflow: hidden;  
   height: auto;
-  object-fit: cover;  /* ✅ Prevents stretching */
-  border-radius: 70px; /* ✅ Applies curved edges to image */
+  object-fit: cover;  
+  border-radius: 70px; 
 }
 
 .price {

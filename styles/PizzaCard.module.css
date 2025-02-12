@@ -10,16 +10,16 @@
 }
 
 .padding {
-  width: 100%;   /* Ensure it fits inside .container */
-  overflow: hidden;  /* Prevents sharp edges from overflowing */
-  border-radius: 20px;  /* ✅ Curved corners */
+  width: 100%;   
+  overflow: hidden;  
+  border-radius: 20px;  
 }
 
 .padding img {
-  width: 100%;   /* Ensure image fills the container */
+  width: 100%;   
   height: auto;
-  object-fit: cover;  /* ✅ Prevents stretching */
-  border-radius: 20px; /* ✅ Applies curved edges to image */
+  object-fit: cover;  
+  border-radius: 20px; 
 }
 
 .title {

@@ -83,7 +83,7 @@ const Order = ({ order }) => {
             <b className={styles.totalTextTitle}>Total:</b>
             <span suppressHydrationWarning>${order.total}</span>
           </div>
-          <button disabled className={styles.button}>PAID</button>
+          <button disabled className={styles.button}>Yet To Pay</button>
         </div>
       </div>
     </div>
